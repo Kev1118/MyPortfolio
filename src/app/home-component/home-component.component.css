@@ -1,0 +1,20 @@
+
+h1{
+    padding-top: 35%;
+    font-weight: 500;
+    font-size: 2.5rem;
+    color: white;
+}
+h2{
+    font-size: 1.5rem;
+    color:white;
+}
+.myImage{
+    height: 30rem;
+    border-radius: 20rem;
+    margin: 7rem 0;
+}
+app-work-component{
+    justify-content: center !important;
+    text-align: center !important;
+}

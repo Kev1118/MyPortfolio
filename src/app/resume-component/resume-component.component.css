@@ -1,0 +1,70 @@
+
+.resume-container{
+    border: 1px solid #0000;
+    background-color: #ffffff;
+    text-align: center;
+}
+.profile-bg{
+    margin:0;
+    width: 100%;
+}
+.profile{
+    border-radius: 4rem;
+    position: relative;
+    top: -35px;
+    box-shadow: 0px 10px 30px rgba(57,56,61,0.205);
+
+}
+.my-name{
+    color: #0c0c0c;
+    font-size: 1.5em;
+   
+}
+
+.res-title{
+    font-size: 1em;
+}
+.dl-btn{
+    width: 100%;
+    padding: 0;
+    margin-top: 100px;
+}
+.dl-btn .btn-download, .pull-left{
+    float: left;
+}
+.dl-btn .btn-contact, .pull-right{
+    float: right;
+}
+.dl-btn button{
+    border: none;
+    background-color: transparent;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.resume-container h4{
+    margin-top: 20px;
+    margin-bottom: 50px;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+.resume-container .row .col-12 {
+    margin-bottom: 10px;
+}
+.resume-container .info-lbl{
+    background-color: #85e2a1;
+    border-top-right-radius: 25px;
+}
+.resume-container .res-info{
+    margin-top: 50px;
+}
+.resume-container .res-edu p{
+    margin: 0;
+}
+.resume-container .res-p{
+    color: #111;
+}
+.resume-container .res-p.font-bold{
+    font-weight: bold;
+    font-size: 1.2em;
+}

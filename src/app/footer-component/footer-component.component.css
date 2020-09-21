@@ -1,0 +1,22 @@
+.footer{
+    background-color: #111;
+    text-align: center;
+    padding: 2.5rem 0;
+    font-size: 1.2rem;
+    position: relative;
+}
+.footer a,p{
+    color: #16e0bd;
+}
+.move-up{
+    position: absolute;
+    right: 6%;
+    top: 30%;
+}
+.move-up span{
+    font-size: 2.5em;
+    color: #16e0bd;
+}
+.move-up span:hover{
+    color: #afadad;
+}

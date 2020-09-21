@@ -1,0 +1,97 @@
+.mat-sidenav-container{
+ background-color: #423443;
+}
+.sidenav .mat-toolbar {
+  background: inherit;
+}
+
+.mat-toolbar.mat-primary {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+.mat-toolbar{
+  background-color: #423443;
+}
+.custom-container{
+  display:block;
+  display: flex;
+  flex-direction: row;
+
+}
+.navigation-menu .navigation-list{
+  display: flex;
+  flex-direction: row;
+  margin:0;
+}
+.navigation-menu .navigation-list .navigation-item{
+  list-style-type: none;
+}
+.navigation-menu .navigation-list .navigation-item .navigation-item-link{
+    color: white;
+    padding:0 1.5rem;
+    font-size: .8em;
+    font-family: 'Roboto', sans-serif;
+}
+.navigation-menu .navigation-list .navigation-item .active.navigation-item-link {
+  background: linear-gradient(90deg, #4458dc 0%, #854fee 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.navigation-menu .navigation-list .navigation-item .navigation-item-link:hover,
+.navigation-menu-icon span:hover{
+  background: linear-gradient(90deg, #4458dc 0%, #854fee 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.navigation-menu-icon{
+  color:white;
+  margin:0;
+  padding:0;
+  font-size: 2em;
+  display: none;
+}
+.navigation-menu-icon span{
+  font-size: .8em;
+  position: relative;
+}
+.mobile-nav{
+  display: none;
+}
+.mobile-nav .mobile-list{
+  list-style-type: none;
+}
+.mobile-nav .mobile-list .mobile-item .mobilie-item-link{
+  display: block;
+  color: white !important;
+}
+
+@media screen and (max-width: 600px){
+  .navigation-menu-icon{
+    display: block;
+  }
+  .mobile-nav{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    text-align: center;
+  }
+  .mobile-nav .mobile-list .mobile-item .mobilie-item-link{
+    color: black;
+  }
+  .mobile-nav .mobile-list .mobile-item .mobilie-item-link:hover{
+    background: linear-gradient(90deg, #4458dc 0%, #854fee 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  .navigation-menu{
+    display: none;
+  }
+  .menu-icon{ display: block !important;}
+  
+ 
+}
