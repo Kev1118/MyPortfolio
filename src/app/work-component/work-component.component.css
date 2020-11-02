@@ -4,8 +4,8 @@ h2{
     font-size: 1.8em;
 }
 img{
-    height: 15rem;  
-   
+    height: 15rem;
+
     transition: all 1s ease;
 }
 img:hover{
@@ -14,4 +14,7 @@ img:hover{
 h4{
     color: white;
     font-size: 1.1em;
+}
+.video video{
+  height: 13rem;
 }
